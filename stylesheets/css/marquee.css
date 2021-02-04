@@ -1,0 +1,30 @@
+  .marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  .track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 20s linear infinite;
+    animation-play-state: paused;
+  }
+
+  .track:hover {
+    animation-play-state: running;
+  }
+  
+  .marquee:hover {
+    background-color: white;
+    color: black;
+  }
+
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }

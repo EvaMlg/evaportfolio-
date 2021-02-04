@@ -1,0 +1,16 @@
+@media only screen and (max-width: 900px) {
+
+    .icon {
+        display : none;
+      }
+
+    .git {
+        display : none;
+    }
+
+    .cv {
+        display : none;
+      }
+  
+    } 
+
