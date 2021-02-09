@@ -87,7 +87,6 @@ a {
 }
 
 a:hover {
-    color : white;
     font-style: italic;
    
 }
@@ -100,6 +99,7 @@ a:hover {
    border : dotted 8px white;
    position : absolute;
    background : black;
+
    
 }
 
